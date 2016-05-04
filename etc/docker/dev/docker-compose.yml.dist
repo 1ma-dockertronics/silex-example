@@ -5,13 +5,13 @@ services:
     depends_on:
       - app
     ports:
-      - 80
+      - '80:80'
     volumes_from:
       - app
   app:
     image: 1maa/php-dev:7.0
     ports:
-      - 22
+      - '2222:22'
     volumes:
       - .:/var/www/silex.dev
     working_dir: /var/www/silex.dev
