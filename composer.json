@@ -1,0 +1,9 @@
+{
+    "name": "1maa-dockertronics/silex-example",
+    "description": "Showcase of Docker environments for a sample Silex project",
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "silex/silex": "^1.3"
+    }
+}
