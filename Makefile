@@ -5,8 +5,8 @@ dev:
 	docker-compose build
 
 sta: clean
-	rsync -av --files-from=etc/docker/sta/nginx/include --exclude='*.php' . etc/docker/sta/nginx/silex.sta
-	rsync -av --files-from=etc/docker/sta/php/include . etc/docker/sta/php/silex.sta
+	rsync -arv --files-from=etc/docker/sta/nginx/include --exclude='*.php' . etc/docker/sta/nginx/silex.sta
+	rsync -arv --files-from=etc/docker/sta/php/include . etc/docker/sta/php/silex.sta
 	docker-compose -f etc/docker/sta/docker-compose.yml build
 
 clean:
