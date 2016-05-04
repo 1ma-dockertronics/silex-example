@@ -1,0 +1,10 @@
+version: '2'
+services:
+  web:
+    build: etc/docker/dev/php-dev
+    ports:
+      - 22
+      - 80:80
+    volumes:
+      - .:/var/www/silex.dev
+    working_dir: /var/www/silex.dev
