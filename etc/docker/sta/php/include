@@ -1,3 +1,4 @@
+/app.php
 /composer.json
 /composer.lock
-/web/app.php
+/web/index.php
