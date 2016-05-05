@@ -4,7 +4,6 @@ all: dev sta
 .PHONY: dev
 dev:
 	cp -up dev/docker-compose.yml.dist ../../docker-compose.yml
-	docker-compose -f ../../docker-compose.yml build
 
 .PHONY: sta
 sta: clean

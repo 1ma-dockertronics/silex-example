@@ -1,13 +1,16 @@
 version: '2'
 services:
   web:
-    build: etc/docker/dev/nginx
+    image: nginx:1.10
     depends_on:
       - app
     ports:
       - '80:80'
+    volumes:
+      - ./etc/docker/dev/nginx/conf.d:/etc/nginx/conf.d
     volumes_from:
       - app
+    working_dir: /var/www/silex.dev/web
   app:
     image: 1maa/php-dev:7.0
     ports:
