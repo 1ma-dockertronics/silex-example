@@ -6,5 +6,8 @@
 /etc/docker/sta/nginx/silex.sta/
 /docker-compose.yml
 
+/node_modules/
+
 /vendor/
+
 /web/css/

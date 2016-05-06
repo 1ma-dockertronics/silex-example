@@ -1,0 +1,17 @@
+{
+  "name": "silex-example",
+  "version": "0.0.1",
+  "description": "Showcase of Docker environments for a sample Silex project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1ma-dockertronics/silex-example.git"
+  },
+  "author": "Marcel Hernandez <e6990620@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^1.0",
+    "grunt-contrib-less": "^1.3.0",
+    "less": "^2.6.1"
+  }
+}
