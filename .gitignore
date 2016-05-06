@@ -1,7 +1,10 @@
 /build/
 
+/bower/components
+
 /etc/docker/sta/php/silex.sta/
 /etc/docker/sta/nginx/silex.sta/
 /docker-compose.yml
 
 /vendor/
+/web/css/

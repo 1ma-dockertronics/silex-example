@@ -1,0 +1,13 @@
+{
+  "name": "silex-example",
+  "homepage": "https://github.com/1ma-dockertronics/silex-example",
+  "authors": [
+    "Marcel Hernandez <e6990620@gmail.com>"
+  ],
+  "description": "Showcase of Docker environments for a sample Silex project",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3.3.6"
+  }
+}
