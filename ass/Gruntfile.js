@@ -5,12 +5,12 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     less: {
       build: {
-        files: {'web/css/bootstrap.css': 'bower/custom-bootstrap/bootstrap.less'}
+        files: {'../web/css/bootstrap.css': 'less/custom-bootstrap.less'}
       }
     }
   });
 
-  // Load the plugin that provides the "uglify" task.
+  // Load the plugin that provides the "less" task.
   grunt.loadNpmTasks('grunt-contrib-less');
 
   // Default task(s).

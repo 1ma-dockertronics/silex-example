@@ -1,12 +1,11 @@
-/build/
+/ass/bower_components/
+/ass/node_modules/
 
-/bower/components
+/build/
 
 /etc/docker/sta/php/silex.sta/
 /etc/docker/sta/nginx/silex.sta/
 /docker-compose.yml
-
-/node_modules/
 
 /vendor/
 
