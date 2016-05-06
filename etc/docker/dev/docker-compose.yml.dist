@@ -11,6 +11,12 @@ services:
     volumes_from:
       - app
     working_dir: /var/www/silex.dev/web
+  ass_watcher:
+    image: 1maa/nodetools:4.x
+    command: sh -c "while true; do date; sleep 300; done"
+    volumes_from:
+      - app
+    working_dir: /var/www/silex.dev/ass
   app:
     image: 1maa/php-dev:7.0
     ports:
