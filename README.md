@@ -1,5 +1,7 @@
 # silex-example
 
+![docker](web/img/docker.png)
+
 ```sh
 sudo npm install -g bower less less-plugin-clean-css
 bower install
