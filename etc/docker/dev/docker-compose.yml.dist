@@ -18,7 +18,7 @@ services:
       - app
     working_dir: /var/www/silex.dev/ass
   app:
-    image: 1maa/php-dev:7.0
+    image: 1maa/php-dev:7.0a
     ports:
       - '2222:22'
     volumes:
