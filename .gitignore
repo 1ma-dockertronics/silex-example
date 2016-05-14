@@ -7,6 +7,8 @@
 /etc/docker/sta/nginx/silex.sta/
 /docker-compose.yml
 
+/phpunit.xml
+
 /vendor/
 
 /web/css/
