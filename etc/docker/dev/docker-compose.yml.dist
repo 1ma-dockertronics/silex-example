@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: nginx:1.10
+    image: nginx:1.10-alpine
     depends_on:
       - app
     ports:
